@@ -45,3 +45,11 @@ group :development do
   gem 'spring'
 end
 
+# use Haml for templates
+gem 'haml'
+# use Ruby debugger
+group :development, :test do
+  gem 'debugger'
+end
+
+
